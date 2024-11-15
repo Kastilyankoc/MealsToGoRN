@@ -26,6 +26,8 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 export default function App() {
+  console.log('Helloo');
+  
   const [oswaldLoaded] = useOswald({
     Oswald_400Regular,
   });
